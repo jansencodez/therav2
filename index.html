@@ -3,14 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thera - Yours</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Thera - Your AI-powered therapy chatbot. Get mental health support anytime, anywhere."
+    />
+    <meta
+      name="keywords"
+      content="therapy chatbot, AI mental health, virtual therapy, online therapist, chatbot AI"
+    />
+    <meta name="author" content="WevaTechnologies" />
+
+    <!-- Open Graph (OG) for Social Media -->
+    <meta property="og:title" content="Thera - Your AI Therapy Chatbot" />
+    <meta
+      property="og:description"
+      content="Thera helps you manage your mental well-being through AI-driven conversation."
+    />
+    <meta property="og:image" content="https://therav2.vercel.app/icon.jpg" />
+    <meta property="og:url" content="https://therav2.vercel.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Thera - AI Therapy Chatbot" />
+    <meta
+      name="twitter:description"
+      content="Talk to Thera, your personal AI-powered therapist available 24/7."
+    />
+    <meta name="twitter:image" content="https://therav2.vercel.app/icon.png" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://therav2.vercel.app/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon.png" />
+
+    <!-- Title -->
+    <title>Thera - AI Therapy Chatbot for Mental Well-being</title>
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Thera - AI Therapy Chatbot",
+        "description": "Thera is an AI-powered chatbot designed to provide mental health support and emotional well-being assistance.",
+        "applicationCategory": "Chatbot",
+        "operatingSystem": "Web",
+        "image": "https://therav2.vercel.app/icon.jpg",
+        "url": "https://therav2.vercel.app/",
+        "author": {
+          "@type": "Organization",
+          "name": "WevaTechnologies"
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="chat-container">
       <div class="chat-header">
         <div class="avatar-container">
-          <img src="icon.jpg" alt="Chatbot Avatar" class="chatbot-avatar" />
+          <img
+            src="icon.jpg"
+            alt="Thera AI Chatbot Avatar"
+            class="chatbot-avatar"
+          />
           <svg class="online-status" width="12" height="12">
             <use xlink:href="#online-status"></use>
           </svg>
